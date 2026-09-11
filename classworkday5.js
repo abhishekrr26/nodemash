@@ -13,6 +13,7 @@ htt.createServer(function(req,res){
   }
   else{
     console.log(req.url)
+    console.log(req.method)
     res.statusCode=404;
     res.statusMessage='not found'
     res.write('page not found')
