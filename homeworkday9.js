@@ -19,7 +19,7 @@ fs.writeFile('buffer_output.txt',c,function(err,){
         console.log('error occured')
         return;
     }
-    console.log("file created ")
+    console.log("file created ");
 })
 
 
